@@ -8,7 +8,7 @@ const instrumentSerif = Instrument_Serif({ subsets: ['latin'], weight: '400', st
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono', display: 'swap' })
 
 export const metadata: Metadata = {
-  title: 'Swift Digital Services — Websites that bring customers',
+  title: 'Swift Digital Services | Websites for Nigerian businesses',
   description: 'Web design and development in Kaduna, Nigeria. Fast business websites with WhatsApp booking and ordering built in.',
   metadataBase: new URL('https://swiftdigital.vercel.app'),
   openGraph: { title: 'Swift Digital Services', description: 'Websites that fill your inbox with customers.', type: 'website', images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Swift Digital Services — Kaduna, Nigeria' }] },
